@@ -1,0 +1,554 @@
+/*
+ * Simon and Edrea!
+ *
+ */
+
+/*
+ * Beige / Grey master colour: E9E5D8
+ * Blue Navigation Text colour: 2E77D9
+ * Red: FF4F3A;
+ */
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body a
+{
+    color: #FF4F3A;
+    text-decoration: none;
+}
+
+#fixed-width-container
+{
+    font-family: "raleway-n3", "raleway", "helvetica", "arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sans-serif-font
+{
+    font-family: "raleway-n3", "raleway", "helvetica", "arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.serif-font
+{
+    font-family: "calluna-n3", "calluna", "georgia", serif;
+}
+
+#password-entry-form
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+img.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#incorrect-password
+{
+    color: #FF4F3A;
+    text-align: center;
+}
+
+#perfectly-centered
+{
+    position: absolute;
+    height: 400px;
+    width: 400px;    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*
+ * Navigation Menu
+ */
+#navigation-menu
+{
+    background-color: #E9E5D8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul
+{
+    list-style-type: none;
+    height: 65px;
+    width: 660px;
+    margin: 0px auto;
+    display: block;
+}
+
+li {
+    float: left;
+}
+
+ul a {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 15px;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #2E77D9;
+    top: 50%;
+    font-family: "raleway-n5", "raleway", "helvetica", "arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+ul a:hover {
+    color: #FF4F3A;
+}
+
+.menu-selected
+{
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 15px;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    top: 50%;
+    font-family: "raleway-n5", "raleway", "helvetica", "arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #74726d;
+    font-size: 15px;
+}
+
+.header-image-background-color
+{
+    background-color: #E9E5D8;
+}
+
+#home-header-image
+{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#subpage-header-image
+{
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+/*
+ * Titles and Headings
+ */
+
+.capitalized-heading
+{
+    margin-top: 5px;
+    font-size: 34px;
+    color: #FF5B38;
+}
+
+.small-subtext
+{
+    font-size: 13px;
+    line-height: 100%;
+}
+
+/*
+ * thewedding.php
+ *
+ * Two-column layout punked from http://matthewjamestaylor.com/blog/equal-height-columns-2-column.htm
+ */
+.container2 {
+    clear: left;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff; /* column 2 background colour */
+}
+.container1 {
+    float: left;
+    width: 100%;
+    position: relative;
+    right: 50%;
+    background: #ffffff; /* column 1 background colour */
+}
+.col1 {
+    float: left;
+    width: 460px;
+    position: relative;
+    left: 50%;
+    overflow: hidden;
+}
+.col2 {
+    float:left;
+    width: 460px;
+    position: relative;
+    left: 550px;
+    overflow: hidden;
+}
+
+.venue-image
+{
+    width: 100%;
+}
+
+.venue-heading
+{
+    font-weight: 500;
+    margin-top: 33px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.body-text
+{
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.details-heading
+{
+    margin-top: 50px;
+    padding-top: 5px;
+    font-size: 12px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#rsvp-blurb
+{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+
+#rsvp-line
+{
+    margin-top: 100px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+#rsvp-button
+{
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.embeddedMap
+{
+    height: 300px;
+    width: 100%;
+}
+
+/*
+ * General purpose
+ */
+.grey
+{
+    color: #666666;
+}
+
+.padded-space-above
+{
+    padding-top: 60px;
+}
+
+.largeLineSpacing
+{
+    line-height: 140%;
+}
+
+/*
+ * Used to style a horizontal rule
+ */
+.section-separation
+{
+    clear: both;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 40px;
+}
+
+.section-separation-no-line
+{
+    clear: both;
+    padding-top: 80px;
+}
+
+/*
+ * About us
+ */
+.orange-border
+{
+    margin-top: 160px;
+    border-color: #FF4F3A;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.aboutuslogo
+{
+    margin-top: -86px;
+    text-align: center;
+}
+
+#aboutusborderpadding
+{
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+#aboutusborderpadding p
+{
+    margin-bottom: 20px;
+}
+
+#bride-column
+{
+    float: left;
+    width: 385px;
+    margin-left: 83px;
+}
+
+#groom-column
+{
+    float: right;
+    width: 385px;
+    margin-right: 83px;
+}
+
+.wedding-party-title
+{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #000000;
+}
+
+.wedding-party-name
+{
+    font-size: 20px;
+    color: #FF5B38;
+}
+
+.wedding-party-description
+{
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.wedding-party
+{
+    margin-top: 55px;
+    clear: both;
+}
+
+.wedding-party-person
+{
+    margin-top: 60px;
+    float: left;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/*
+ * Index.php montage
+ */
+.photo-montage
+{
+    margin-top: 140px;
+    clear: both;
+    height: 300px;
+}
+
+.montage-3-row
+{
+    height: 300px;
+}
+
+.montage-2-row
+{
+    height: 200px;
+}
+
+.photo-montage-item
+{
+    float: left;
+}
+
+/* Style for items in a montage row with three images */
+.montage-2-of-3
+{
+    margin-left: 140px;
+    margin-top: 50px
+}
+
+.montage-3-of-3
+{
+    margin-left: 140px
+}
+
+/* Style for items in a montage row with two images */
+.montage-1-of-2
+{
+    margin-left: 95px;
+}
+
+.montage-2-of-2
+{
+    margin-left: 190px;
+}
+
+/*
+ * Password entry styles
+ */
+#wedding-date-entry
+{
+    width: 680px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+/*
+ * RSVP Form
+ */
+label, input[type="text"]
+{
+    border:0;
+    display:block;
+    float:left;
+    padding:7px 0 0 0;
+    margin:0 0px 5px 0;
+    width:127px;
+}
+
+input[type="radio"]
+{
+    border:0;
+    display:block;
+    float:left;
+    padding:0;
+    margin:0 1px 5px 0;
+}
+
+input[type="text"] {
+    background:#f8f8f8;
+    border:1px solid #444;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    margin-bottom:20px;
+    padding:10px 7px;
+    width:314px;
+}
+
+input:hover, textarea:hover {
+    box-shadow:0px 0px 6px #C0C0C0;
+    -moz-box-shadow:0px 0px 6px #C0C0C0
+    -webkit-box-shadow:0px 0px 6px #C0C0C0;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #0885c7;
+    outline:none;
+    box-shadow:0px 0px 12px #C0C0C0;
+    -moz-box-shadow:0px 0px 12px #C0C0C0
+    -webkit-box-shadow:0px 0px 12px #C0C0C0;
+}
+
+.button {
+    clear: both;
+    display: block;
+    margin-bottom:50px;
+}
+
+input#attending_yes
+{
+    margin: 9px 0 0 0;
+    width: 20px;
+}
+
+input#attending_no
+{
+    margin: 9px 0 0 0;
+    width: 20px;
+}
+
+label#attending_yes_label
+{
+    width: 305px;
+    margin-bottom: 10px;
+}
+
+label#attending_no_label
+{
+    width: 286px;
+    margin-bottom: 10px;
+}
+
+#attending_checkboxes
+{
+    width: 330px;
+    float: left;
+}
+
+.error_box {
+    background:#FF4F3A;
+    border:1px solid #A75B4E;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    color:#E9E5D8;
+    display:none;
+    margin:0px 0px 15px 0px;
+    padding:8px 8px;
+    width:672px;
+}
+
+
+#form-container
+{
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registry-store
+{
+    float: left;
+}
